@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Cafè Cocoas</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+
+	<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="../css/style.css">
+
+	<link rel="icon" href="../favicon.png">
+</head>
+<body>
+	<div class="wrapper">
+		<header>
+			<div class="logo left">
+				<img src="../img/logo.png" alt="Cocoas">
+			</div>
+			<nav class="right">
+				<ul>
+					<a href="../"><li>Home</li></a>
+					<a href="../about-us"><li>About Us</li></a>
+					<a href=""><li class="current">Find Us</li></a>
+					<a href="../contact-us"><li>Contact Us</li></a>
+				</ul>
+			</nav>
+		</header>
+		<section>
+			<div id="map-canvas">
+				<noscript>
+					<img src="http://maps.googleapis.com/maps/api/staticmap?center=56.117461,-3.986105&zoom=12&size=400x400&markers=56.117461,-3.9861052&sensor=false" />
+				</noscript>
+			</div>
+			<div id="directions-panel"></div>
+			<div class="address">
+				45 King Street <br>
+				Stirling <br>
+				FK8 1AY <br>
+			</div>
+			<button class="get-location" data-location="" onclick="initiate_geolocation();">Get Directions</button>
+		</section>
+		<footer>
+			<img class="cup" src="../img/cup.png" alt="Cocoas Coffee">
+		</footer>
+		<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+		<script src="../js/find-us.js"></script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+html {
+  background: #f0e1d1;
+}
+
+.wrapper {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+header {
+  background: #aa55ff;
+  height: 100px;
+  width: 100%;
+  padding: 10px;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav li {
+  display: inline;
+  background: #94d158;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1.1em;
+  font-weight: light;
+  font-family: 'Raleway', sans-serif;
+}
+nav li:hover {
+  background: #84C443;
+  cursor: pointer;
+}
+
+nav li.current {
+  background: #61992a;
+}
+
+section {
+  margin-top: 20px;
+  background: #e9d4be;
+  padding: 10px;
+  width: 100%;
+}
+section figure {
+  border: 10px solid white;
+  width: 550px;
+  background: white;
+  float: left;
+}
+section figcaption {
+  padding: 5px 0;
+  text-align: center;
+  font-size: 1.2em;
+}
+section p {
+  width: 400px;
+  float: right;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.clearfix {
+  clear: both;
+}
